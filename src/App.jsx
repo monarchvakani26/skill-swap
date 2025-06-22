@@ -1,22 +1,3 @@
-// import React from 'react'
-// import Navbar from "@/components/Navbar";
-// import Home from './pages/Home'
-// import HeroSection from './components/HeroSection';
-// import './index.css';
-// function App() {
-//   return (
-//     <div className="App">
-//     <Navbar />
-    
-//     <HeroSection />
-//   </div>
-
-//   );
-// }
-
-// export default App;
-
-
 
 
 
