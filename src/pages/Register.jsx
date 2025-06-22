@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+   const navigate = useNavigate()
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -41,7 +43,7 @@ function Register() {
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-          <button
+          <button onClick={() => navigate('/dashboard')}
             type="submit"
             className="w-full bg-pink-500 text-white py-3 rounded-lg hover:bg-pink-600"
           >

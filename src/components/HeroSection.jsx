@@ -24,7 +24,8 @@ const HeroSection = () => {
             >
               Get Started
             </button>
-            <button className="px-6 py-3 border border-pink-500 text-pink-500 rounded-xl text-lg font-medium hover:bg-pink-100 transition">
+            <button onClick={() => navigate("/browse")}
+            className="px-6 py-3 border border-pink-500 text-pink-500 rounded-xl text-lg font-medium hover:bg-pink-100 transition">
               Browse Skills
             </button>
           </div>
