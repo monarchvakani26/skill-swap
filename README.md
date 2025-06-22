@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎯 Skill Swap Platform
 
 A barter-style platform where users exchange skills (e.g., coding for guitar lessons) without using money.
@@ -32,3 +33,7 @@ npx create-vite@latest skill-swap-frontend --template react
 cd skill-swap-frontend
 npm install
 npm run dev
+=======
+# skill-swap
+A barter-style platform where users exchange skills (e.g., coding for guitar lessons) without using money.
+>>>>>>> 2c9b2da0ddcd78b4a0f228a1b66adcff546c39e8
