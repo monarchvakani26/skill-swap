@@ -59,4 +59,8 @@ export const SearchIcon = (props) => (
       />
     </svg>
   );
-    
+  export const StarIcon = ({ className = "h-5 w-5" }) => (
+    <svg className={className} fill="currentColor" viewBox="0 0 20 20">
+      <path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.954L10 0l2.951 5.956 6.561.954-4.756 4.635 1.122 6.545z" />
+    </svg>
+  );
